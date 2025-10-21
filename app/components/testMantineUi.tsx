@@ -1,7 +1,7 @@
 import { Button } from "@mantine/core";
 import Link from "next/link";
 
-function Demo() {
+function WelcomeButton() {
   return (
     <Button
       component={Link}
@@ -14,4 +14,4 @@ function Demo() {
     </Button>
   );
 }
-export default Demo;
+export default WelcomeButton;
